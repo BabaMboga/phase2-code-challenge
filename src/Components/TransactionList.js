@@ -27,6 +27,6 @@ function TransactionList(transactions) {
         </table>
     </div>
   )
-}
+};
 
 export default TransactionList;
