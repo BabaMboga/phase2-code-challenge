@@ -13,7 +13,7 @@ function App() {
     
   return (
     <div>
-        <TransactionList transactions/>
+        <TransactionList transactions={transactions}/>
     </div>
   )
 }
