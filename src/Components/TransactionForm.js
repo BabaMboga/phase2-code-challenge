@@ -19,9 +19,22 @@ const TransactionForm = ({onAddTransaction}) => {
             type="text"
             placeholder='Description'
             value={description}
-            onChange={e => setDescription(e.target.value)}/>
-            <input/>
-            <input/>
+            onChange={e => setDescription(e.target.value)}
+            />
+            <input
+            type='text'
+            placeholder='Category'
+            value={category}
+            onChange={e => setCategory(e.target.value)}
+            />
+            <input
+            type='number'
+            placeholder='Amount'
+            value={Amount}
+            onChange={e => setAmount(e.target.value)}
+            />
         </form>
-    )
-}
+    );
+};
+
+export default TransactionForm;
