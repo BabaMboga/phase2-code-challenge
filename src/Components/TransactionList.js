@@ -14,6 +14,7 @@ function TransactionList(transactions) {
                 </tr>
             </thead>  
             <tbody>
+                
                 {transactions.map((transaction) => (
                     <tr key={transaction.id}>
                         <td>{transaction.id}</td>

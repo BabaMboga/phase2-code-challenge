@@ -33,6 +33,7 @@ const TransactionForm = ({onAddTransaction}) => {
             value={amount}
             onChange={e => setAmount(e.target.value)}
             />
+            <button type="submit">Add Transaction</button>
         </form>
     );
 };

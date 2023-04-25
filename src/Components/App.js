@@ -2,7 +2,7 @@ import React, {useState, useEffect } from 'react';
 import TransactionList from './TransactionList';
 import TransactionForm from './TransactionForm';
 import SearchBar from './SearchBar';
-import './styles/App.css';
+import './app.css';
 
 function App() {
 
@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="container">
         <h1 className='heading'>Transactions</h1>
-        <TransactionForm onAddTransaction={handleAddTransaction} />
+        <TransactionForm onAddTransaction={handleAddTransaction} {...transactions} />
         <SearchBar onSearch={handleSearch} className='search-bar' />
-        <TransactionList transactions={filteredTransactions} />
+        <TransactionList transactions={filteredTransactions} {...transactions}/>
     </div>
   );
 };
