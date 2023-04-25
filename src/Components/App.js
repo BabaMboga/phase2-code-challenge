@@ -1,6 +1,8 @@
-import React, {useState, useEffect } from 'react'
-import TransactionList from './TransactionList'
+import React, {useState, useEffect } from 'react';
+import TransactionList from './TransactionList';
 import TransactionForm from './TransactionForm';
+import SearchBar from './SearchBar';
+import '../styles/App.css';
 
 function App() {
 
@@ -32,10 +34,10 @@ function App() {
     });
     
   return (
-    <div>
-        <h1>Transactions</h1>
+    <div className="container">
+        <h1 className='heading'>Transactions</h1>
         <TransactionForm onAddTransaction={handleAddTransaction} />
-        <SearchBar onSearch={handleSearch} />
+        <SearchBar onSearch={handleSearch} className='search-bar' />
         <TransactionList transactions={filteredTransactions} />
     </div>
   );

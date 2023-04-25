@@ -2,8 +2,8 @@ import React from 'react'
 
 function TransactionList(transactions) {
   return (
-    <div>
-        <table>
+    <div className='transaction-list'>
+        <table className='table'>
             <thead>
                 <tr>
                     <th>ID</th>

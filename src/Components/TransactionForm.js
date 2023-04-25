@@ -14,7 +14,7 @@ const TransactionForm = ({onAddTransaction}) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='form'>
             <input
             type="text"
             placeholder='Description'
