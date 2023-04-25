@@ -2,7 +2,7 @@ import React, {useState, useEffect } from 'react';
 import TransactionList from './TransactionList';
 import TransactionForm from './TransactionForm';
 import SearchBar from './SearchBar';
-import '../styles/App.css';
+import './styles/App.css';
 
 function App() {
 

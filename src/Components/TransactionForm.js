@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const TransactionForm = ({onAddTransaction}) => {
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
-    const [] = useState('');
+    const [amount, setAmount] = useState('');
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -30,7 +30,7 @@ const TransactionForm = ({onAddTransaction}) => {
             <input
             type='number'
             placeholder='Amount'
-            value={Amount}
+            value={amount}
             onChange={e => setAmount(e.target.value)}
             />
         </form>
