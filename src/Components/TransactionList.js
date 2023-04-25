@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TransactionList(transactions) {
+function TransactionList({transactions}) {
   return (
     <div className='transaction-list'>
         <table className='table'>

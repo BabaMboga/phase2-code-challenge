@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="container">
         <h1 className='heading'>Transactions</h1>
-        <TransactionForm onAddTransaction={handleAddTransaction} {...transactions} />
+        <TransactionForm onAddTransaction={handleAddTransaction}  />
         <SearchBar onSearch={handleSearch} className='search-bar' />
-        <TransactionList transactions={filteredTransactions} {...transactions}/>
+        <TransactionList transactions={filteredTransactions} />
     </div>
   );
 };
