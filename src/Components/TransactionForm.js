@@ -4,17 +4,24 @@ const TransactionForm = ({onAddTransaction}) => {
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
     const [amount, setAmount] = useState('');
+    const [date, setDate] = useState('');
 
     const handleSubmit = e => {
         e.preventDefault();
-        onAddTransaction({description, category, amount});
+        onAddTransaction({date, description, category, amount});
         setDescription('');
         setCategory('');
         setAmount('');
+        setDate('');
     };
 
     return (
         <form onSubmit={handleSubmit} className='form'>
+            <input
+            type="text"
+            placeholder='Date'
+            value={date}
+            onChange={e => setDate(e.target.value)}/>
             <input
             type="text"
             placeholder='Description'

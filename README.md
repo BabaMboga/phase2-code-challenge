@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# phase2-code-challenge
+This is my attempt to the code challenge assignment
+#### {Brief description of application}, {Date of current version}
+This is a project that displays how to perform CRUD in react. The site is an MVP to represent how a Bank would display transactions to its users and it can be accessed using this site below
+ https://phase2-code-challenge-tau.vercel.app/
+#### By **{List of contributors}**
+This project was created and is sole property of Ayim William
+## Description
+This project will display a table of all transactions undertaken.
+The project also displays a form that adds a new transaction to our list on submission.
+The project also contains a serch bar that filters transactions with a description matching the search term should be shown in the trasactions table.
+The project is inclusive of the app.css, index.js , App.js, SearchBar.js, TransactionForm.js, TransactionList.js
+## Setup/Installation Requirements
+* One would need either linux or wsl for window users
+* A copy of visual basic code installed
+* A github account
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Open your terminal and go to the directory you wish to work from.
+2. Go to the following url using ur github account 
+3. Go to the code tab and clone the ssh key
+4. Go back to the termina and type git clone <-followed by the ssh key you copied /cloned ->
+5. Enter your new cloned repository and type in code .
+6. On the visual studio code that has now opened and do npm install and then npm start
+## Technologies Used
+This program is built purely with react using the visual code environment.
+It also has db.json file which contains the data we are going to use.
+## Support and contact details
+For any issues please email me at william.ayim@student.moringaschool.com
+### License
+Apache License 2.0
